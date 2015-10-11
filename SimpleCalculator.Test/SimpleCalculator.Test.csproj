@@ -41,7 +41,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OneOperationCalculator\SimpleCalculator.csproj">
+    <ProjectReference Include="..\SimpleCalculator\SimpleCalculator.csproj">
       <Project>{72FC8DBC-BEA0-4F5F-AA9C-F4A17D59BA92}</Project>
       <Name>SimpleCalculator</Name>
     </ProjectReference>

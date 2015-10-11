@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneOperationConsoleCalculator", "OneOperationConsoleCalculator\OneOperationConsoleCalculator.csproj", "{A936BF81-4689-4781-A25E-271CBC35B468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "OneOperationCalculator\SimpleCalculator.csproj", "{72FC8DBC-BEA0-4F5F-AA9C-F4A17D59BA92}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.Test", "SimpleCalculator.Test\SimpleCalculator.Test.csproj", "{1C6457F0-EE88-4426-B61C-91C4584B01BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{72FC8DBC-BEA0-4F5F-AA9C-F4A17D59BA92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
