@@ -13,7 +13,7 @@ namespace SimpleCalculator.Test
 		string DIVIDE = "/";
 		string UNKNOWN = "%";
 
-		Calculator<int> calculator;
+		ICalculator<int> calculator;
 
 		[SetUpAttribute]
 		public void Init(){
