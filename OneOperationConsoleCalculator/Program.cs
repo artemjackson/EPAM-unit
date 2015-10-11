@@ -7,11 +7,11 @@ namespace OneOperationConsoleCalculator
 	{
 		public static void Main (string[] args)
 		{
-			if (args.Length == 4)
+			if (args.Length == 3)
 			{
-				int x = Int32.Parse(args [1]);
-				string op = args[2];
-				int y = Int32.Parse (args [3]);
+				int x = Int32.Parse(args [0]);
+				string op = args[1];
+				int y = Int32.Parse (args [2]);
 				
 				var calculator = new Calculator<double>();
 
