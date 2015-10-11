@@ -1,2 +1,2 @@
-# EPAMTrainings
+# EPAMTraining
 Tasks and labs from training
