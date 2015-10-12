@@ -9,13 +9,16 @@ namespace OneOperationConsoleCalculator
 		{
 			if (args.Length == 3)
 			{
+				int x = 0;
+				int y = 0;
+				string op = args[1];
+
 				try {
-					int x = Int32.Parse(args [0]);
-					int y = Int32.Parse (args [2]);
+					x = Int32.Parse(args [0]);
+					y = Int32.Parse (args [2]);
 				} catch (FormatException exc){
 					System.Console.WriteLine("Invalid input parameters type. Parameters should be integers");
 				}
-				string op = args[1];
 
 				var calculator = new Calculator<int>();
 
