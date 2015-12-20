@@ -1,0 +1,13 @@
+language: csharp
+solution: OneOperationConsoleCalculator.sln
+
+mono:
+  - latest
+
+install:
+  - nuget restore solution-name.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+
+script:
+  - xbuild /p:Configuration=Release OneOperationConsoleCalculator.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./SimpleCalculator.Test/bin/Release/SimpleCalculator.Test.dll
