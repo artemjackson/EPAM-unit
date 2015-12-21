@@ -4,15 +4,9 @@ solution: OneOperationConsoleCalculator.sln
 mono:
   - latest
 
-before_install:
-  - pip install --user codecov
-
 install:
   - nuget restore OneOperationConsoleCalculator.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
-
-after_success:
-  - codecov
 
 script:
   - xbuild /p:Configuration=Release OneOperationConsoleCalculator.sln
